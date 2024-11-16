@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <style>
+        #b3 {
+            display:none;
+        }
+        #b4 {
+            display:none;
+        }
+        #b5 {
+            display:none;
+        }
+        #b6 {
+            display:none;
+        }
+        #tryagain {
+            display:none;
+        }
+    </style>
+</head>
+
+
+
+<body style="background-color:light gray;">
+
+
+<h1 style="font-family: 'Oswald';text-align:center;font-size: 50px;" id="whowins">What beats scissors?</h1>
+<h1 style="font-family: 'Oswald';text-align:center;font-size: 25px;" id="second"></h1>
+
+<div style="text-align:center;padding:150px;">
+    <button id="b1" type="button" style="margin:50px;padding:20px;" onclick="victory()">Rock</button>
+    <button id="b2" type="button" style="margin:50px;padding:20px;" onclick="failure()">Paper</button>
+    <button id="b3" type="button" style="margin:50px;padding:20px;" onclick="nextRound()">Next</button>
+
+    <button id="b4" type="button" style="margin:50px;padding:20px;" onclick="failure()">Glass</button>
+    <button id="b5" type="button" style="margin:50px;padding:20px;" onclick="victory()">Metal pipe</button>
+    <button id="b6" type="button" style="margin:50px;padding:20px;" onclick="failure()">Computer</button>
+    <button id="tryagain" type="button" style="margin:50px;padding:20px;" onclick="backtostart()">Try again</button>
+
+
+</div>
+
+<script src="controller.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
